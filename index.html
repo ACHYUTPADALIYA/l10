@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Java script string methods</title>
+</head>
+<body>
+    <center>
+        <h1>Java Script String Methods</h1>
+        <p id="nr"></p>
+        <p id="sr"></p>
+        <p id="se"></p>
+        <p id="re"></p>
+    </center>
+    <script>
+        var x = 88;
+        var y = 99;
+        var str = "Donnde esta el mi passaporte?"
+        var sp = str.search("esta")
+        var t = str.replace("passaporte","maleta")
+        document.getElementById("nr").innerHTML = x+y;
+        document.getElementById("sr").innerHTML = String(x) + String(y);
+        document.getElementById("se").innerHTML = sp
+        document.getElementById("re").innerHTML = t
+    </script>
+</body>
+</html>
